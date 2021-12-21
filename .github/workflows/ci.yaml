@@ -44,6 +44,8 @@ jobs:
         uses: nouhouari/action-allure-report@v0.2.0
       - name: Deploy report to gitHub Pages
         uses: crazy-max/ghaction-github-pages@v2.5.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           # Build directory to deploy
           build_dir: allure-report
