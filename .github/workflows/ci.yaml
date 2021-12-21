@@ -1,4 +1,4 @@
-name: Build Bizmatch-API
+name: Automted test
 on:
   #Manually trigger workflow runs
   workflow_dispatch:
