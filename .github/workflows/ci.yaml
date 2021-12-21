@@ -38,5 +38,9 @@ jobs:
           distribution: 'adopt' # See 'Supported distributions' for available options
           java-version: '11'
           cache: 'maven'
+      - name:  Install Google Chrome 
+      run: |
+           chmod +x ./scripts/installChrome.sh
+           ./scripts/installChrome.sh    
       - name: Run test
         run: mvn test
