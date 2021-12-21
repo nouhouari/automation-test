@@ -1,5 +1,7 @@
 ### Automated test project
 
+![Build status](https://github.com/nouhouari/automation-test/actions/workflows/ci.yaml/badge.svg)
+
 This project is used to test automatically your web application.
 
 It integrates:
