@@ -5,7 +5,7 @@ on:
   #Trigger the workflow on push from the main branch
   push:
     branches:
-      - feature/upgrade
+      - master
 jobs:
   # Build's job
   build:
