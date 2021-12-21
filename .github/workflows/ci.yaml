@@ -41,4 +41,4 @@ jobs:
       - name: Run test
         run: mvn test
       - name: Allure report
-        uses: nouhouari/action-allure-report@v0.1.0
+        uses: nouhouari/action-allure-report@v0.2.0
