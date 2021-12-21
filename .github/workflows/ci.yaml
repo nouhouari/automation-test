@@ -39,7 +39,7 @@ jobs:
           java-version: '11'
           cache: 'maven'
       - name:  Install Google Chrome 
-      run: |
+        run: |
            chmod +x ./scripts/installChrome.sh
            ./scripts/installChrome.sh    
       - name: Run test
