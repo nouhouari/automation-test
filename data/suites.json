@@ -1,0 +1,34 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Surefire suite",
+    "children" : [ {
+      "name" : "Surefire test",
+      "children" : [ {
+        "name" : "com.hin.CucumberRunnerTest",
+        "children" : [ {
+          "name" : "Runs Cucumber Scenarios",
+          "uid" : "ac7df700b389adbf",
+          "parentUid" : "acfebb07b66ba04d05f0b44eae177784",
+          "status" : "passed",
+          "time" : {
+            "start" : 1640073749477,
+            "stop" : 1640073753660,
+            "duration" : 4183
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "\"Login with valid credentials\"", "\"Optional[Login to HRM Application]\"" ]
+        } ],
+        "uid" : "acfebb07b66ba04d05f0b44eae177784"
+      } ],
+      "uid" : "1fcb2e6ec8e5b5e8a1f2a70b87c80b24"
+    } ],
+    "uid" : "940a09faf31371a51747026c9d178f0a"
+  } ],
+  "name" : "suites"
+}
